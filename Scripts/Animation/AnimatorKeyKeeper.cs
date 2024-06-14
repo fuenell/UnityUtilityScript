@@ -9,7 +9,7 @@ public class AnimatorKeyKeeper : MonoBehaviour
     {
         m_Animator = GetComponent<Animator>();
 
-        m_Animator.keepAnimatorControllerStateOnDisable = true;
+        m_Animator.keepAnimatorStateOnDisable = true;
         m_DefaultStateNameHash = m_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash;
     }
 
