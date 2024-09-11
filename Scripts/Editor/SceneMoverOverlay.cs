@@ -131,7 +131,9 @@ public class SceneMoverOverlay : Overlay
                     minWidth = 0,
                     marginTop = 2,
                     marginBottom = 0,
-                    width = 95
+                    width = 95,
+                    minHeight = 18,
+                    maxHeight = 18
                 },
                 objectType = typeof(SceneAsset)
             };
