@@ -128,7 +128,6 @@ public class SceneMoverOverlay : Overlay
                 style =
                 {
                     flexGrow = 1,
-                    minWidth = 0,
                     marginTop = 2,
                     marginBottom = 0,
                     width = 95,
