@@ -6,7 +6,7 @@ public class KeystoreSetter
 {
     static KeystoreSetter()
     {
-        // 빌드 전에 키스토어 자동 설정
+        // 유니티가 초기화되면 키스토어 설정
         PlayerSettings.Android.useCustomKeystore = true;
         PlayerSettings.Android.keystoreName = "키스토어 경로";
         PlayerSettings.Android.keystorePass = "키스토어 암호";
@@ -16,3 +16,4 @@ public class KeystoreSetter
         Debug.Log("[KeystoreSetter] 키스토어 설정 완료");
     }
 }
+
